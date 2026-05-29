@@ -1,0 +1,218 @@
+
+body{
+    overflow-x: hidden;
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    color: #FDF5AA;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text{
+    font-size: 2rem;
+}
+.header-name{
+    font-size: 3rem;
+}
+#header-page{
+    background-image: url('../images/header_image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.header-container{
+    padding-top: 10vh;
+    animation: slideIn 1s forwards;
+}
+
+#about-page{
+    background-color: #113F67;
+    padding-top: 10vh;
+    height: 70vh;
+}
+
+.about-container{
+    animation: slideIn 1s forwards;
+}
+.about-title{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.about-text{
+    font-size: 1rem;
+    text-align: center;
+}
+.about-paragraph{
+    width: 60vw;
+}
+.about-btn{
+    background-color: #58A0C8;
+    color: #113F67;
+    border: 1px solid #113F67;
+    border-radius: 50px;
+    width: 10vw;
+    padding: 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+#experience-page{
+    background-color: #58A0C8;
+    padding-top: 10vh;
+    height: 90vh;
+}
+.experience-container{
+    animation: slideIn 1s forwards;
+}
+.experience-title{
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #113F67 !important;
+}
+
+.experience-image-container img {
+    height: auto;
+    width: 25vw; 
+    border-radius: 25px;
+}
+
+.experience-text{
+    font-size: 1rem;
+}
+.experience-text h3{
+    color: #113F67;
+}
+.experience-paragraph{
+    width: 30vw;
+    color: #113F67 !important;
+}
+#hobbies-page{
+    background-color: #113F67;
+    padding-top: 10vh;
+}
+
+.hobbies-container{
+    animation: slideIn 1s forwards;
+}
+.hobbies-title{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.hobbies-image{
+    height: auto;
+    width: 20vw; 
+    border-radius: 25px;
+}
+#quote-page{
+    background-image: url('../images/quote-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    opacity: 1;
+    
+}
+.quote-container{
+    padding-top: 5vh;
+    animation: slideIn 1s forwards;
+    height: 90vh;
+}
+
+.quote-width{
+    width: 80vw;
+}
+
+.quote-name{
+    font-size: 3rem;
+}
+.quote-text{
+    font-size: 1rem;
+}
+#contact-page{
+    height: 90vh;    
+}
+.contact-container{
+    height: 90vh;
+    background-color: #113F67;
+}
+
+.contact-right{
+     background-image: url('../images/contacttwo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-image{
+    height: auto;
+    width: 17vw;
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@media (max-width: 1280px){
+    .header-text{
+        font-size: 1rem;
+    }
+    .header-name{
+        font-size: 1.5rem;
+    }
+    .header-container{
+        padding-top: 25vh;
+    }
+
+   
+   
+    .about-btn{
+        width: 40vw;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .experience-paragraph, .hobbies-image{
+        width: 80vw;
+    }
+    .experience-image-container img {
+        width: 80vw; 
+    }
+    .quote-name{
+        font-size: 2rem;
+    }
+    .contact-right{
+        height: 40vh;
+    }
+     #contact-page{
+        height: auto;    
+    }
+    .contact-container{
+        height: auto;
+    }
+     #about-page{
+        background-color: #113F67;
+        padding-top: 10vh;
+        height: auto;
+    }
+    #experience-page{
+        height: auto;
+    }
+    .contact-image{
+
+        height: auto;
+        width: 80vw;
+        margin-bottom: 5vh;
+    }
+}
