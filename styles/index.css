@@ -225,4 +225,7 @@ div{
     .flex-list{
         order: 0;
     }
+    .contact-right{
+        display: none;
+    }
 }
