@@ -111,9 +111,16 @@ div{
 }
 .hobbies-image{
     height: auto;
-    width: 20vw; 
+    width: 15vw; 
     border-radius: 25px;
 }
+.hobbies-flex{
+    display: flex;
+}
+.flex-list{
+    order: 2;
+}
+
 #quote-page{
     background-image: url('../images/quote-bg.jpg');
     background-repeat: no-repeat;
@@ -214,5 +221,8 @@ div{
         height: auto;
         width: 80vw;
         margin-bottom: 5vh;
+    }
+    .flex-list{
+        order: 0;
     }
 }
